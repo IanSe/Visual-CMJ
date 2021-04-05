@@ -1,0 +1,103 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --tede: #3a2d4f;
+    --link: #000000;
+    --naranja: #ff8e42;
+    --back_color: #222222;
+    --uno: #d45500;
+    --dos: #792536;
+    --tres: #4b0082;
+    --cuatro: #2f4f40;
+    --cinco: #1d72b8;
+}
+
+
+body {
+    background: var(--tres);
+    background: linear-gradient(200deg, var(--uno) 0%, var(--dos) 15%, var(--tres) 100%);
+    margin: 0px;
+}
+
+.link table{
+    border: 0px;
+    background-color: #f7f0ffbb;
+    width: 100%;
+    max-height: 35px;
+    border-bottom: 2px solid var(--naranja);
+}
+
+.link table tr td {
+    font-size: 22px;
+    color: var(--tede);
+}
+
+.link table tr td a{
+    font-size: 22px;
+    color: var(--link);
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.link table tr td a image{
+    margin-bottom: 0px;
+    color: var(--link);
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.link table tr td a:hover{
+    color: var(--naranja);
+}
+
+.link table tr td a:visited{
+    color: var(--tede);
+}
+
+.hink table{
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    margin-top: 50px;
+    border: 2px solid #000000;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 5px solid var(--tede);
+    padding: 8px;
+    width: 95%;
+    height: auto;
+}
+
+.hink table tr td{
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 60px 60px 60px 60px;
+    -moz-border-radius: 60px 60px 60px 60px;
+    -webkit-border-radius: 60px 60px 60px 60px;
+    padding: 6px;
+}
+
+.hink table tr td a{
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.Dink{
+    color: blueviolet;
+}

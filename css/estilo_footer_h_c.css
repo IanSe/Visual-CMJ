@@ -1,0 +1,27 @@
+
+:root{
+    --height: 80px;
+}
+
+@media only screen and (min-width: 720px){
+    :root{
+        --height: 180px;
+    }
+}
+
+.footer-background--top{
+    width: 100%;
+    height: var(--height);
+    border: none;
+}
+
+.foot {
+    margin-top: -23px;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-color: #3a2d4f;
+    color: white;
+    font-size: 18px;
+}
+

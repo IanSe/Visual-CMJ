@@ -1,0 +1,292 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --Morado: #4b0082;
+    --fd1: #792536;
+}
+
+body {
+    background: #ffffff;
+    background: linear-gradient(200deg, var(--Morado) 0%, var(--fd1) 50%);
+}
+
+.link table{
+    top: 0px;
+    border: 0px;
+    border-bottom: 2px solid #ff8e42;
+    background-color: #f7f0ffbb;;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    color: #241c31;
+}
+
+.link table tr td {
+    font-size: 22px;
+}
+
+.link table tr td a{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    padding: 3px;
+}
+
+.link table tr td a:hover{
+    color: var(--Morado);
+}
+
+.social{
+    position: fixed;
+    left: 0;
+    top: 160px;
+    z-index: 2000;
+}
+
+.social ul{
+    list-style: none;
+}
+
+.social ul li a{
+    color: white;
+    background-color: var(--Morado);
+    display: inline-block;
+    padding: 15px 15px;
+    text-decoration: none;
+    -webkit-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+.social ul li a:hover{
+   padding: 15px 20px;
+   color: var(--Morado);
+   background: white;
+}
+
+.Contenedor{
+    border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 20px 10px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    border: 2px solid var(--Morado);
+    color: rgb(33, 0, 56);
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: auto;
+    width: 94%;
+    font-size: 22px;
+    margin-top: 60px;
+    max-width: 900px;
+}
+
+
+.Contenedor input[type="text"], input[type="password"]{
+    text-align: center;
+    outline: none;
+    display: block;
+    width: 80%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 2px solid #ff6600;
+    padding: 5px;
+} 
+
+.Contenedor input[type="submit"]{
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    color: var(--Morado);
+    background: white;
+    border: none;
+    border-bottom: 2px solid var(--Morado);
+    border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+}
+
+.Contenedor input[type="submit"]:hover{
+    color: white;
+    background: var(--Morado);
+}
+
+.Materias{
+    margin: auto;
+    background-color: var(--Morado);
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    box-shadow: 1px 3px black;
+}
+
+.Materias:hover{
+    padding: 12px;
+    background-color: rgb(100, 0, 170);
+}
+
+.Guardar_Links{
+    display: none;
+    font-size: 22px;
+    color: var(--Morado);
+}
+
+.Emocion{
+    border-radius: 10px 20px 10px 20px;
+    -moz-border-radius: 10px 20px 10px 20px;
+    -webkit-border-radius: 10px 20px 10px 20px;
+    border: 2px solid var(--Morado);
+    color: rgb(33, 0, 56);
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 94%;
+    font-size: 22px;
+    margin-top: 20px;
+    max-width: 900px;
+}
+.Feliz{
+    display: inline;
+}
+
+.Feliz button[type="submit"]{
+    font-size: 22px;
+    width: 18%;
+    padding: 8px;
+    color: rgb(0, 120, 0);
+    background: white;
+    border: 2px solid rgb(0, 120, 0);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+
+.Feliz button[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(60, 120, 0);
+}
+
+.Alegre{
+    display: inline;
+}
+
+.Alegre button[type="submit"]{
+    font-size: 22px;
+    width: 18%;
+    padding: 8px;
+    color: rgb(80, 120, 0);
+    background: white;
+    border: 2px solid rgb(80, 120, 0);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+
+.Alegre button[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(80, 120, 0);
+}
+
+.Normal{
+    display: inline;
+}
+
+.Normal button[type="submit"]{
+    font-size: 22px;
+    width: 18%;
+    padding: 8px;
+    color: rgb(200, 200, 0);
+    background: white;
+    border: 2px solid rgb(200, 200, 0);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+
+.Normal button[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(200, 200, 0);
+}
+
+.Triste{
+    display: inline;
+}
+
+.Triste button[type="submit"]{
+    font-size: 22px;
+    width: 18%;
+    padding: 8px;
+    color: rgb(0, 150, 200);
+    background: white;
+    border: 2px solid rgb(0, 150, 200);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+
+.Triste button[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 150, 200);
+}
+
+.Morido{
+    display: inline;
+}
+
+.Morido button[type="submit"]{
+    font-size: 22px;
+    width: 18%;
+    padding: 8px;
+    color: rgb(0, 40, 200);
+    background: white;
+    border: 2px solid rgb(0, 40, 200);
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+}
+
+.Morido button[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 40, 200);
+}
+
+.Contenedor textarea {
+    resize: none;
+    outline: var(--Morado);
+    overflow: auto;
+    border: 2px solid var(--Morado);
+}
+
+.Contenedor textarea:focus{
+    box-shadow: 1px 3px rgb(50, 50, 50, 0.5);
+}
+
+.Pie{
+    color: white;
+    background-color: #ff8e42;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    max-height: 25px;
+    min-height: 20px;
+}
